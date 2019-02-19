@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo_Table" max_length="40" name="x_58872_needit_demo_table" type="collection">
+        <element label="Address" max_length="50" name="address" type="string_full_utf8"/>
+        <element choice="1" label="Age" max_length="2" name="age" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Age Range" max_length="20" name="age_range" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Above 15" value="Above 15"/>
+                <element inactive_on_update="false" label="Below 15" value="Below 15"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="20" name="name" type="string_full_utf8"/>
+    </element>
+</database>
